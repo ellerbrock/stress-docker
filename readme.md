@@ -1,9 +1,8 @@
 # stress
 
-*Docker Container for Stress Testing*
-
-
 Docker Hub: [frapsoft/stress](https://hub.docker.com/r/frapsoft/stress/)
+
+Base Image: [phusion/baseimage](https://github.com/phusion/baseimage-docker)
 
 ## Installation
 
