@@ -1,10 +1,6 @@
 FROM phusion/baseimage
 
-MAINTAINER Maik Ellerbrock (github.com/ellerbrock)
-
-ENV CONTAINER_VERSION 0.0.2
-ENV CONTAINER_NAME frapsoft/stress
-ENV CONTAINER_REPO https://github.com/ellerbrock/stress-docker
+MAINTAINER Maik Ellerbrock (https://github.com/ellerbrock)
 
 USER root
 
@@ -14,4 +10,5 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 ENTRYPOINT ["stress"]
+
 CMD ["--version"]
