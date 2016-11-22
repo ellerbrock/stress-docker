@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM debian:jessie-slim
 
 MAINTAINER Maik Ellerbrock (https://github.com/ellerbrock)
 
